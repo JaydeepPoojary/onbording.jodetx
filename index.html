@@ -14,6 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
+ 
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -22,16 +23,30 @@
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="interview_entry">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="apple-mobile-web-app-title" content="onboardingjodetx">
+  <link rel="apple-touch-icon" href="icons/jode_logo.jpeg">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/jpeg" href="favicon-32x32.png"/>
 
-  <title>Jode Technologies Pvt Ltd.</title>
+  <title>Jodetx Technologies Pvt</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script src='https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.min.mjs' type='module'></script>
+  <script type='module'>
+  var { pdfjsLib } = globalThis;
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.worker.mjs';
+
+  var pdfRenderOptions = {
+    cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/cmaps/',
+    cMapPacked: true,
+  }
+  </script>
   <script src="flutter_bootstrap.js" async></script>
+  <!-- PDF.js required by pdfx plugin -->
+  <script src="assets/packages/pdfx/web/pdf.js"></script>
+  <script src="assets/packages/pdfx/web/pdf.worker.js"></script>
+
 </body>
 </html>
