@@ -48,7 +48,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "b5592a82cfcce79c015c9531200f0ee1
 "favicon.ico": "81fa5d4727fc354663b4e00160068512",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "e6f7c1ee63f9fe83784759045ac9d45a",
+"flutter_bootstrap.js": "3be39d1d05766270aa0f5d3de620d8ef",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -56,7 +56,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "b5592a82cfcce79c015c9531200f0ee1
 "icons/jode_logo.jpeg": "66450e71de5975cff1982467318ce5ba",
 "index.html": "671187ee86b7131b11a63df172ea5f2e",
 "/": "671187ee86b7131b11a63df172ea5f2e",
-"main.dart.js": "bfe991ca30608ff2a54e3f34e954bfc8",
+"main.dart.js": "62a98171e8018521058628e8af037d38",
 "manifest.json": "31bb1c831fd1e1cdf6252c336d4c3834",
 "site.webmanifest": "053100cb84a50d2ae7f5492f7dd7f25e",
 "version.json": "7351b7ece328a043574a0149fd6774e4"};
